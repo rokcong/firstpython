@@ -3,7 +3,7 @@ please install pip
 
 # this
 
-pip install Pillow
+pip install Pillow \n
 pip install keyboard    
 
 
