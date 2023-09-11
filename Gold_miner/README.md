@@ -1,6 +1,7 @@
 # Gold_miner
 
 [image cpoyright]
+
 1.claw - 
 https://www.freepik.com/free-vector/various-manufacturing-robots-arms_9177007.htm
 
