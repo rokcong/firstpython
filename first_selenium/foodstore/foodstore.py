@@ -80,7 +80,7 @@ def main():
 # DB Connection
 
     mydb = mysql.connector.Connect(
-        host="AWS_Sever",
+        host="AWS_Sever_host",
         port="AWS_Server_port",
         user="AWS_Server_name",
         password="AWS_Password",
