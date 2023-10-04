@@ -90,7 +90,7 @@ def main():
     
     mycursor = mydb.cursor()
     
-    sql = "INSERT INTO tt (name, num, addr, star, category) VALUSE (%s, %s, %s, %s, %s)"
+    sql = "INSERT INTO 'DB_table_name' (name, num, addr, star, category) VALUSE (%s, %s, %s, %s, %s)"
 
     valoutput = [[], [], [], [], [], []]
     for i, inter_list in enumerate(result):
