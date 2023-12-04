@@ -14,7 +14,7 @@ class Game:
 		self.level = Level()		# Level 클래스 인스턴스 생성
 
 		# sound
-		main_sound = pygame.mixer.Sound('D:/VSCode/StudyPython/zleda_project/level graphics/audio/main.ogg') 	# 주 음악 파일 로드
+		main_sound = pygame.mixer.Sound('../level graphics/audio/main.ogg') 	# 주 음악 파일 로드
 		main_sound.set_volume(0.5)		# 음량 설정
 		main_sound.play(loops = -1)  	# 반복 재생 설정
 	   
