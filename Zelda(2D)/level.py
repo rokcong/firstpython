@@ -41,14 +41,14 @@ class Level:
 
     def create_map(self):
         layouts = {
-            'boundary' : import_csv_layout('D:/VSCode/StudyPython/zleda_project/level graphics/map/map_FloorBlocks.csv'),
-            'grass' : import_csv_layout('D:/VSCode/StudyPython/zleda_project/level graphics/map/map_Grass.csv'),
-            'object' : import_csv_layout('D:/VSCode/StudyPython/zleda_project/level graphics/map/map_Objects.csv'),
-            'entities' : import_csv_layout('D:/VSCode/StudyPython/zleda_project/level graphics/map/map_Entities.csv')
+            'boundary' : import_csv_layout('../level graphics/map/map_FloorBlocks.csv'),
+            'grass' : import_csv_layout('../level graphics/map/map_Grass.csv'),
+            'object' : import_csv_layout('../level graphics/map/map_Objects.csv'),
+            'entities' : import_csv_layout('../level graphics/map/map_Entities.csv')
         }
         graphics = {
-            'grass' : import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/grass'),
-            'objects' : import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/objects')
+            'grass' : import_folder('../level graphics/graphics/grass'),
+            'objects' : import_folder('../level graphics/graphics/objects')
         }
         # print(graphics)
 
@@ -162,7 +162,7 @@ class  YSortCamerGroup(pygame.sprite.Group):
         self.offset = pygame.math.Vector2()
 
         # 바닥 생성
-        self.floor_surf = pygame.image.load('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/tilemap/ground.png').convert()
+        self.floor_surf = pygame.image.load('../level graphics/graphics/tilemap/ground.png').convert()
         self.floor_rect = self.floor_surf.get_rect(topleft = (0, 0))
 
     def custom_draw(self, player):
