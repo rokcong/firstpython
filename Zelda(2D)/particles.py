@@ -6,37 +6,37 @@ class AnimationPlayer:
     def __init__(self) :
         self.frames = {
 			# magic
-			'flame': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/flame/frames'),
-			'aura': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/aura'),
-			'heal': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/heal/frames'),
+			'flame': import_folder('../level graphics/graphics/particles/flame/frames'),
+			'aura': import_folder('../level graphics/graphics/particles/aura'),
+			'heal': import_folder('../level graphics/graphics/particles/heal/frames'),
 			
 			# attacks 
-			'claw': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/claw'),
-			'slash': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/slash'),
-			'sparkle': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/sparkle'),
-			'leaf_attack': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf_attack'),
-			'thunder': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/thunder'),
+			'claw': import_folder('../level graphics/graphics/particles/claw'),
+			'slash': import_folder('../level graphics/graphics/particles/slash'),
+			'sparkle': import_folder('../level graphics/graphics/particles/sparkle'),
+			'leaf_attack': import_folder('../level graphics/graphics/particles/leaf_attack'),
+			'thunder': import_folder('../level graphics/graphics/particles/thunder'),
 
 			# monster deaths
-			'squid': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/smoke_orange'),
-			'raccoon': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/raccoon'),
-			'spirit': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/nova'),
-			'bamboo': import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/bamboo'),
+			'squid': import_folder('../level graphics/graphics/particles/smoke_orange'),
+			'raccoon': import_folder('../level graphics/graphics/particles/raccoon'),
+			'spirit': import_folder('../level graphics/graphics/particles/nova'),
+			'bamboo': import_folder('../level graphics/graphics/particles/bamboo'),
 			
 			# leafs 
 			'leaf': (
-				import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf1'),
-				import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf2'),
-				import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf3'),
-				import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf4'),
-				import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf5'),
-				import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf6'),
-				self.reflect_images(import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf1')),
-				self.reflect_images(import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf2')),
-				self.reflect_images(import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf3')),
-				self.reflect_images(import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf4')),
-				self.reflect_images(import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf5')),
-				self.reflect_images(import_folder('D:/VSCode/StudyPython/zleda_project/level graphics/graphics/particles/leaf6'))
+				import_folder('../level graphics/graphics/particles/leaf1'),
+				import_folder('../level graphics/graphics/particles/leaf2'),
+				import_folder('../level graphics/graphics/particles/leaf3'),
+				import_folder('../level graphics/graphics/particles/leaf4'),
+				import_folder('../level graphics/graphics/particles/leaf5'),
+				import_folder('../level graphics/graphics/particles/leaf6'),
+				self.reflect_images(import_folder('../level graphics/graphics/particles/leaf1')),
+				self.reflect_images(import_folder('../level graphics/graphics/particles/leaf2')),
+				self.reflect_images(import_folder('../level graphics/graphics/particles/leaf3')),
+				self.reflect_images(import_folder('../level graphics/graphics/particles/leaf4')),
+				self.reflect_images(import_folder('../level graphics/graphics/particles/leaf5')),
+				self.reflect_images(import_folder('../level graphics/graphics/particles/leaf6'))
 				)
 			}
 
