@@ -6,8 +6,8 @@ class MagicPlayer:
     def __init__(self, animation_player):
         self.animation_player = animation_player
         self.sounds = {
-            'heal' : pygame.mixer.Sound('D:/VSCode/StudyPython/zleda_project/level graphics/audio/heal.wav'),
-            'flame' : pygame.mixer.Sound('D:/VSCode/StudyPython/zleda_project/level graphics/audio/Fire.wav')
+            'heal' : pygame.mixer.Sound('../level graphics/audio/heal.wav'),
+            'flame' : pygame.mixer.Sound('../level graphics/audio/Fire.wav')
         }
 
     def heal(self, player, strength, cost, groups):
