@@ -7,7 +7,7 @@ class Weapon(pygame.sprite.Sprite):
         direction = player.status.split('_')[0]
 
         # 그래픽
-        full_path = f'D:/VSCode/StudyPython/zleda_project/level graphics/graphics/weapons/{player.weapon}/{direction}.png'
+        full_path = f'../level graphics/graphics/weapons/{player.weapon}/{direction}.png'
         self.image = pygame.image.load(full_path).convert_alpha()
 
         # 배치
