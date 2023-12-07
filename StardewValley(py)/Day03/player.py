@@ -30,7 +30,7 @@ class Player(pygame.sprite.Sprite):
                             'right_water': [], 'left_water': [], 'up_water': [], 'down_water': []}
 
         for animation in self.animations.keys():
-            full_path = 'D:/VSCode/StudyPython/stardew_Valley/graphics/character/' + animation
+            full_path = '../graphics/character/' + animation
             self.animations[animation]  = import_folder(full_path)
         print(self.animations)
 
