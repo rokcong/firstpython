@@ -10,8 +10,6 @@
   |Tilemap||
 </div>
 
-<div align=center>
----
 # 💻 How to play (Windows)
 ### 조작키
 ```
@@ -24,7 +22,6 @@ Lctrl = 마법 공격
 Q : 무기 변경
 E : 마법 변경
 ```
-</div>
 ### 📦 관련 모듈 설치
 ```
 pip install pygame
