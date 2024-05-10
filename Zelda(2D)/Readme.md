@@ -7,7 +7,7 @@
   |:--:|:--:|
   |python|3.11.05|
   |vscode|1.76.2(user setup)|
-  |Tilemap||
+  |Tilemap|1.10.2|
 </div>
 
 # 💻 How to play (Windows)
