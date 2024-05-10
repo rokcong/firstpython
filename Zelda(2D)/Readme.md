@@ -5,8 +5,8 @@
   
   |환경|version|
   |:--:|:--:|
-  |python|3.10.12|
-  |vscode||
+  |python|3.11.05|
+  |vscode|1.76.2(user setup)|
   |Tilemap||
 </div>
 
