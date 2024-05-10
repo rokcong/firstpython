@@ -27,12 +27,12 @@ E : 마법 변경
 pip install pygame
 pip install pip
 ```
-### 실행
+### ⏯️ 실행
 ```
 main.py
 ```
 ---
-### 📦 참조 자료 
+### 🌌 참조 자료 
 ```
 🔗 https://www.youtube.com/@ClearCode
 ```
